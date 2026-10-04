@@ -8,21 +8,7 @@ The application is deployed using AWS Elastic Beanstalk with an Application Load
 
 ## Architecture
 
-User
-↓
-Route 53
-↓
-CloudFront
-↓
-Application Load Balancer
-↓
-Elastic Beanstalk
-↓
-Auto Scaling EC2 Instances
-↓
-Apache Tomcat
-↓
-Web Application
+![AWS Architecture](architecture.png)
 
 Supporting AWS Services:
 
